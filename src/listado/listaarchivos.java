@@ -117,7 +117,7 @@ public class listaarchivos extends javax.swing.JFrame {
             //File[] ListaFiles = ruta.listFiles();
             ArrayList<File> ListaFiles = new ArrayList<>(Arrays.asList(ruta.listFiles()));
 
-            //Recorremos la lista con un bucle forEach
+            //Recorremos la lista con un bucle forEach//
             for(File fichero : ListaFiles){
                 if(!fichero.isHidden()){
                     modelo.addElement(fichero.getName());
